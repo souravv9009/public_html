@@ -1176,6 +1176,7 @@ width: 400px;
 
 .single-product-area .product-thumbnail img {
     width: 100%;
+    height: 130px;
 }
 
 .single-product-area .product-thumbnail .product-tags {
