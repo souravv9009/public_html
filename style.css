@@ -1015,7 +1015,7 @@ width: 400px;
 	width:60px;
 	height:60px;
 	bottom:40px;
-	right:40px;
+	left: 100px;
 	background-color:#25d366;
 	color:#FFF;
 	border-radius:50px;
@@ -1027,6 +1027,9 @@ width: 400px;
 
 .my-float{
 	margin-top:16px;
+}
+.dropdown-menu.show{
+    background-color: #000;
 }
 
 .famie-video-play::after {
