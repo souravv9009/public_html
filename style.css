@@ -330,6 +330,11 @@ input:focus {
     font-size: 36px;
     margin-left: -3px;
 }
+.section-heading h6{
+    margin-bottom: 10px;
+    font-size: 36px;
+    margin-left: -3px;
+}
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .section-heading h2 {
@@ -343,7 +348,16 @@ input:focus {
     }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .section-heading h6 {
+        font-size: 20px;
+    }
+}
+
 .section-heading h2 span {
+    color: #ffd700;
+}
+.section-heading h6 span {
     color: #ffd700;
 }
 
@@ -361,6 +375,15 @@ input:focus {
 .section-heading.white h2 span,
 .section-heading.white p span {
     color: #ffffff;
+}
+
+.single-team-member img {
+  width: 50px;
+  height: 150px;
+}
+
+.single-team-member text h5{
+  font-size: smaller;
 }
 
 #scrollUp {
@@ -1425,6 +1448,10 @@ width: 400px;
     }
 }
 
+.dropdown-backdrop  {
+    position: static;
+}
+
 .testimonial-slides .owl-next,
 .testimonial-slides .owl-prev {
     -webkit-transition-duration: 500ms;
@@ -1469,7 +1496,8 @@ width: 400px;
 }
 
 .about-us-thumbnail img {
-    width: 100%;
+    width: 500px;
+    height: 300px;  
 }
 
 .single-team-member {
