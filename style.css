@@ -652,10 +652,13 @@ input:focus {
 
 
 .header-area .is-sticky .famie-main-menu {
-    z-index: 9999;
+    z-index: 9998;
     box-shadow: 0 5px 50px 0 rgba(0, 0, 0, 0.2);
 }
-
+.dropdown-menu{
+    position: relative;
+    z-index: 9999;
+}
 .header-area #searchIcon {
     position: relative;
     z-index: 1;
@@ -1014,8 +1017,9 @@ width: 400px;
 	position:fixed;
 	width:60px;
 	height:60px;
-	bottom:40px;
-	left: 100px;
+	bottom:50px;
+	left: 50px;
+    top: auto;
 	background-color:#25d366;
 	color:#FFF;
 	border-radius:50px;
@@ -1027,6 +1031,23 @@ width: 400px;
 
 .my-float{
 	margin-top:16px;
+}
+
+@media only screen and (max-width: 767px) {
+    .float {
+        position:fixed;
+        bottom: 30px;
+        right: 30px;
+        width: 40px;
+        height: 40px;
+        left: 20px;
+
+    
+    }
+    .my-float{
+        margin-top: auto;
+    }
+   
 }
 .dropdown-menu.show{
     background-color: #000;
