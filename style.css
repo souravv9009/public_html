@@ -785,6 +785,10 @@ input:focus {
     color: #DAA520;
 }
 
+.img-fluid img {
+    height: 300px;
+    width: 250px;
+}
 .search-form.search-active {
     opacity: 1;
     visibility: visible;
@@ -1074,6 +1078,15 @@ width: 400px;
 }
 .dropdown-menu.show{
     background-color: #000;
+}
+
+.ourteam{
+    padding: 10px; margin-bottom: 30;
+}
+
+.ourteamDesignation{
+    color: black; font-style: italic; font-size: medium; 
+
 }
 
 .famie-video-play::after {
