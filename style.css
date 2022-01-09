@@ -785,6 +785,37 @@ input:focus {
     color: #DAA520;
 }
 
+.quote {
+    margin: 0;
+    background: #eee;
+    padding: 1em;
+    border-radius: 1em;
+  }
+  .quote figcaption,
+  .quote blockquote {
+    margin: 1em;
+  }
+
+  .photo-details{
+
+text-align: center;
+height: 300px;
+width: 250px;
+  }
+  .quotebody {
+    margin: 1em;
+    font: 1.2rem/1.4 Georgia, serif;
+  }
+.img-fluid img {
+    height: 300px;
+    width: 250px;
+    margin-top: 300px;
+}
+@media only screen and (max-width: 768px) {
+    .img-fluid img {
+        margin-top: 10px; 
+    }
+}
 .search-form.search-active {
     opacity: 1;
     visibility: visible;
@@ -1074,6 +1105,15 @@ width: 400px;
 }
 .dropdown-menu.show{
     background-color: #000;
+}
+
+.ourteam{
+    padding: 10px; margin-bottom: 30;
+}
+
+.ourteamDesignation{
+    color: black; font-style: italic; font-size: medium; 
+
 }
 
 .famie-video-play::after {
